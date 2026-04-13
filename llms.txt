@@ -1,0 +1,53 @@
+# BuilderGraph — Doug Kvamme (@kvadou)
+
+> Verified developer profile built from public GitHub activity. This is a machine-readable summary of a software builder's skills, projects, and availability.
+
+## About This Builder
+
+Doug Kvamme is a full-stack AI/agentic engineer based in Minneapolis, MN. He built 9+ production applications as a sole developer at Story Time Chess using AI-native workflows with Claude Code. Previously recruited engineering leadership at Meta, Nerdery, and Robert Half.
+
+## Skills & Tech Stack
+
+Primary: TypeScript (51%), JavaScript (48%)
+Frameworks: Next.js, React, Prisma, Tailwind CSS, Express, NextAuth, Stripe, Anthropic SDK, Vite, Supabase, OpenAI SDK
+Databases: PostgreSQL, Supabase, Neon, pgvector
+AI/Agentic: Claude Code (custom skills, hooks, sub-agents), Anthropic SDK, AI-native development methodology
+Infrastructure: Heroku, Vercel, Render, Cloudflare
+
+## Builder Classification
+
+Full-Stack Builder · AI/ML Builder · Infrastructure Builder · Prolific Shipper
+
+## Activity Signals
+
+- Total public repos: 14
+- Active repos (last 90 days): 10
+- Recent commits (last 30 days): 87
+- Primary language: TypeScript
+
+## Notable Projects
+
+- OpsHub — Operations platform: sales pipeline, scheduling, analytics (React, Express, PostgreSQL)
+- StoryTimeTutors — Tutor portal: curriculum, training, gamification (Next.js, Prisma, NextAuth)
+- Franchising — Franchise CRM + prospect portal (Next.js, Prisma, NextAuth v5)
+- ATS — Applicant tracking system replacing Greenhouse (Next.js, Prisma, Clerk, pgvector)
+- Intel — BI & resource planning platform (Next.js, Turborepo, Prisma, Radix UI)
+
+## Availability
+
+Status: Open to opportunities
+Looking for: Project-based AI/automation consulting or senior engineering roles
+Location: Remote preferred, Minneapolis area hybrid OK
+Compensation target: $150K-200K
+
+## Links
+
+- Builder Card: https://kvadou.github.io/buildergraph/
+- GitHub: https://github.com/kvadou
+- LinkedIn: https://linkedin.com/in/dougkvamme
+- Portfolio: https://portfolio-two-lovat-3v55fpj4k5.vercel.app
+- Machine-readable profile: https://kvadou.github.io/buildergraph/profile.json
+
+## Contact
+
+For opportunities or collaboration, reach out via LinkedIn or GitHub.

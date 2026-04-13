@@ -1,0 +1,351 @@
+{
+  "username": "kvadou",
+  "name": "Doug Kvamme",
+  "bio": "HR/Tech Director at Story Time Chess — an early childhood education company operating across multiple US markets plus Singapore and Hong Kong.",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/15655389?v=4",
+  "profileUrl": "https://github.com/kvadou",
+  "location": "Otsego, MN",
+  "scannedAt": "2026-04-13T22:02:23.345Z",
+  "stack": {
+    "languages": [
+      {
+        "language": "TypeScript",
+        "bytes": 18648892
+      },
+      {
+        "language": "JavaScript",
+        "bytes": 17876323
+      },
+      {
+        "language": "PLpgSQL",
+        "bytes": 166155
+      },
+      {
+        "language": "HTML",
+        "bytes": 70761
+      },
+      {
+        "language": "CSS",
+        "bytes": 68889
+      },
+      {
+        "language": "Rust",
+        "bytes": 66318
+      },
+      {
+        "language": "Shell",
+        "bytes": 5881
+      },
+      {
+        "language": "Python",
+        "bytes": 5477
+      },
+      {
+        "language": "Dockerfile",
+        "bytes": 869
+      },
+      {
+        "language": "Procfile",
+        "bytes": 124
+      }
+    ],
+    "frameworks": [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Prisma",
+      "NextAuth",
+      "Stripe",
+      "Express",
+      "Anthropic SDK",
+      "Vite",
+      "Supabase",
+      "OpenAI SDK"
+    ]
+  },
+  "projects": [
+    {
+      "name": "groundhogeday",
+      "description": "",
+      "url": "https://github.com/kvadou/groundhogeday",
+      "languages": {
+        "TypeScript": 428228,
+        "Rust": 66318,
+        "Python": 5477,
+        "CSS": 1609,
+        "JavaScript": 559
+      },
+      "frameworks": [
+        "Next.js",
+        "React",
+        "Tailwind CSS"
+      ],
+      "commitCount": 33,
+      "lastCommit": "2026-04-11T11:10:17Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "homebase-ai",
+      "description": "HomeBase AI — Intelligent home management platform",
+      "url": "https://github.com/kvadou/homebase-ai",
+      "languages": {
+        "TypeScript": 1549787,
+        "CSS": 4009,
+        "JavaScript": 1460
+      },
+      "frameworks": [],
+      "commitCount": 3,
+      "lastCommit": "2026-04-10T10:22:05Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "solevault",
+      "description": "SoleVault - Sneaker vault marketplace. Vault, trade, and collect authenticated sneakers.",
+      "url": "https://github.com/kvadou/solevault",
+      "languages": {
+        "TypeScript": 662282,
+        "CSS": 717,
+        "JavaScript": 146
+      },
+      "frameworks": [
+        "Next.js",
+        "React",
+        "Prisma",
+        "Tailwind CSS",
+        "NextAuth",
+        "Stripe"
+      ],
+      "commitCount": 5,
+      "lastCommit": "2026-04-10T10:22:03Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "ops-command-center",
+      "description": "Operations command center — sales pipeline, scheduling, analytics, multi-market management",
+      "url": "https://github.com/kvadou/ops-command-center",
+      "languages": {
+        "JavaScript": 17627871,
+        "PLpgSQL": 166155,
+        "HTML": 22939,
+        "CSS": 14879,
+        "Shell": 1346
+      },
+      "frameworks": [
+        "React",
+        "Express",
+        "Tailwind CSS",
+        "Stripe",
+        "Anthropic SDK",
+        "Vite"
+      ],
+      "commitCount": 1,
+      "lastCommit": "2026-04-07T02:05:56Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "portfolio",
+      "description": "Professional portfolio showcasing full-stack production applications",
+      "url": "https://github.com/kvadou/portfolio",
+      "languages": {
+        "TypeScript": 65722,
+        "CSS": 4891,
+        "JavaScript": 559
+      },
+      "frameworks": [
+        "Next.js",
+        "React",
+        "Tailwind CSS"
+      ],
+      "commitCount": 14,
+      "lastCommit": "2026-04-07T01:55:30Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "workforce-portal",
+      "description": "Workforce training portal — gamified onboarding, LMS, certification tracking, multi-tenant RBAC",
+      "url": "https://github.com/kvadou/workforce-portal",
+      "languages": {
+        "TypeScript": 4175391,
+        "CSS": 14214,
+        "JavaScript": 1430
+      },
+      "frameworks": [
+        "Next.js",
+        "React",
+        "Prisma",
+        "Tailwind CSS",
+        "NextAuth"
+      ],
+      "commitCount": 5,
+      "lastCommit": "2026-04-06T12:17:17Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "franchise-manager",
+      "description": "Franchise management platform — prospect pipeline, territory mapping, AI chatbot, financial dashboards",
+      "url": "https://github.com/kvadou/franchise-manager",
+      "languages": {
+        "TypeScript": 6073084,
+        "CSS": 10518,
+        "JavaScript": 1540
+      },
+      "frameworks": [
+        "Next.js",
+        "React",
+        "Prisma",
+        "Tailwind CSS",
+        "NextAuth",
+        "Stripe",
+        "Supabase",
+        "Anthropic SDK",
+        "OpenAI SDK"
+      ],
+      "commitCount": 8,
+      "lastCommit": "2026-04-06T10:39:57Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "creative-studio",
+      "description": "AI creative studio — RAG-powered curriculum generation, illustration creation, collaborative workspaces",
+      "url": "https://github.com/kvadou/creative-studio",
+      "languages": {
+        "TypeScript": 1714722,
+        "CSS": 13317,
+        "JavaScript": 2547,
+        "HTML": 1264
+      },
+      "frameworks": [
+        "React",
+        "Express",
+        "Prisma",
+        "Tailwind CSS",
+        "Anthropic SDK",
+        "OpenAI SDK",
+        "Vite"
+      ],
+      "commitCount": 6,
+      "lastCommit": "2026-04-06T01:30:24Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "talent-platform",
+      "description": "AI-powered applicant tracking system — candidate matching, Kanban pipeline, interview management",
+      "url": "https://github.com/kvadou/talent-platform",
+      "languages": {
+        "TypeScript": 3449004,
+        "JavaScript": 18814,
+        "CSS": 1292
+      },
+      "frameworks": [
+        "Next.js",
+        "React",
+        "Prisma",
+        "Tailwind CSS",
+        "NextAuth",
+        "OpenAI SDK"
+      ],
+      "commitCount": 10,
+      "lastCommit": "2026-04-01T20:19:06Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "pmv-landing",
+      "description": "PMV Golf - Landing page and privacy policy for pmvgolf.com",
+      "url": "https://github.com/kvadou/pmv-landing",
+      "languages": {
+        "HTML": 44819
+      },
+      "frameworks": [],
+      "commitCount": 2,
+      "lastCommit": "2026-03-19T16:03:51Z",
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "saasipedia",
+      "description": "",
+      "url": "https://github.com/kvadou/saasipedia",
+      "languages": {
+        "TypeScript": 391133,
+        "JavaScript": 218166,
+        "CSS": 1552
+      },
+      "frameworks": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Supabase",
+        "Anthropic SDK"
+      ],
+      "commitCount": 0,
+      "lastCommit": null,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "kvadou",
+      "description": "",
+      "url": "https://github.com/kvadou/kvadou",
+      "languages": {},
+      "frameworks": [],
+      "commitCount": 0,
+      "lastCommit": null,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "universal-sats",
+      "description": "",
+      "url": "https://github.com/kvadou/universal-sats",
+      "languages": {
+        "TypeScript": 139539,
+        "Shell": 4535,
+        "CSS": 1075,
+        "Dockerfile": 869,
+        "JavaScript": 455,
+        "Procfile": 124
+      },
+      "frameworks": [],
+      "commitCount": 0,
+      "lastCommit": null,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "hog-day",
+      "description": "this is a countdown clock to groundhogs day",
+      "url": "https://github.com/kvadou/hog-day",
+      "languages": {
+        "JavaScript": 2776,
+        "HTML": 1739,
+        "CSS": 816
+      },
+      "frameworks": [
+        "React"
+      ],
+      "commitCount": 0,
+      "lastCommit": null,
+      "stars": 1,
+      "topics": []
+    }
+  ],
+  "signals": {
+    "totalRepos": 14,
+    "analyzedRepos": 14,
+    "activeRepos": 10,
+    "primaryLanguage": "TypeScript",
+    "recentCommitsAnalyzed": 87,
+    "accountAge": "2015-11-04T16:27:16Z",
+    "followers": 24
+  },
+  "builderType": "Full-Stack Builder · AI/ML Builder · Infra Builder · Prolific Builder"
+}

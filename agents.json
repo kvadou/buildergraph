@@ -1,0 +1,51 @@
+{
+  "$schema": "https://buildergraph.dev/schemas/agent-profile-v1.json",
+  "version": "1.0",
+  "type": "builder-agent",
+  "builder": {
+    "name": "Doug Kvamme",
+    "username": "kvadou",
+    "location": "Minneapolis, MN, US",
+    "timezone": "America/Chicago",
+    "verified_via": "github_public_activity"
+  },
+  "capabilities": {
+    "primary_languages": ["TypeScript", "JavaScript"],
+    "frameworks": [
+      "Next.js", "React", "Prisma", "Tailwind CSS", "Express",
+      "NextAuth", "Stripe", "Anthropic SDK", "Vite", "Supabase", "OpenAI SDK"
+    ],
+    "domains": [
+      "internal-tools", "saas-replacement", "hr-tech", "ed-tech",
+      "ai-native-development", "operations-platforms", "full-stack-web"
+    ],
+    "builder_type": ["full-stack", "ai-ml", "infrastructure", "prolific-shipper"],
+    "project_count": 14,
+    "active_repos_90d": 10,
+    "recent_commits_30d": 87
+  },
+  "availability": {
+    "status": "open",
+    "engagement_types": ["project-based", "consulting", "full-time"],
+    "hours_per_week": "20-40",
+    "remote": true,
+    "compensation_range": {
+      "min": 150000,
+      "max": 200000,
+      "currency": "USD",
+      "type": "annual"
+    }
+  },
+  "contact": {
+    "preferred": "linkedin",
+    "linkedin": "https://linkedin.com/in/dougkvamme",
+    "github": "https://github.com/kvadou",
+    "portfolio": "https://portfolio-two-lovat-3v55fpj4k5.vercel.app"
+  },
+  "endpoints": {
+    "profile_page": "https://kvadou.github.io/buildergraph/",
+    "profile_json": "https://kvadou.github.io/buildergraph/profile.json",
+    "llms_txt": "https://kvadou.github.io/buildergraph/llms.txt"
+  },
+  "last_updated": "2026-04-13"
+}
