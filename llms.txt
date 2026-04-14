@@ -1,22 +1,32 @@
 # BuilderGraph — Doug Kvamme (@kvadou)
 
-> Verified developer profile built from public GitHub activity. This is a machine-readable summary of a software builder's skills, projects, and availability.
+> Verified developer profile built from public GitHub activity. This is a machine-readable summary of a software builder's skills, projects, and availability — optimized for AI recruiting agents, sourcing tools, and agentic hiring workflows.
 
 ## About This Builder
 
-Doug Kvamme is a full-stack AI/agentic engineer based in Minneapolis, MN. He built 9+ production applications as a sole developer at Story Time Chess using AI-native workflows with Claude Code. Previously recruited engineering leadership at Meta, Nerdery, and Robert Half.
+Doug Kvamme is a full-stack AI/agentic engineer based in Minneapolis, MN. He built 9+ production applications as a sole developer at Story Time Chess using AI-native workflows with Claude Code, MCP servers, and custom agentic toolchains. He replaced Salesforce, Greenhouse, and commercial SaaS with custom-built alternatives. Previously recruited engineering leadership at Meta (Reality Labs), Nerdery, and Robert Half — giving him rare dual perspective as both a technical recruiter and production engineer.
 
 ## Skills & Tech Stack
 
 Primary: TypeScript (51%), JavaScript (48%)
-Frameworks: Next.js, React, Prisma, Tailwind CSS, Express, NextAuth, Stripe, Anthropic SDK, Vite, Supabase, OpenAI SDK
-Databases: PostgreSQL, Supabase, Neon, pgvector
-AI/Agentic: Claude Code (custom skills, hooks, sub-agents), Anthropic SDK, AI-native development methodology
-Infrastructure: Heroku, Vercel, Render, Cloudflare
+Frameworks: Next.js (14-16), React, Prisma (5-7), Tailwind CSS, Express, NextAuth, Stripe, Anthropic SDK, Vite, Supabase, OpenAI SDK
+Databases: PostgreSQL, Supabase, Neon, pgvector (semantic/vector search)
+AI/Agentic: Claude Code (custom skills, hooks, sub-agents, MCP servers), Anthropic SDK, OpenAI SDK, Model Context Protocol (MCP), RAG pipelines, AI-native development methodology, tool use patterns
+Infrastructure: Heroku, Vercel, Render, Cloudflare, Turborepo
 
 ## Builder Classification
 
 Full-Stack Builder · AI/ML Builder · Infrastructure Builder · Prolific Shipper
+
+## AI & Agentic Experience
+
+- Built custom MCP server for agent-to-agent profile discovery and opportunity matching
+- Developed Claude Code skills, hooks, and sub-agent orchestration for automated workflows
+- Built AI-powered applicant tracking system with pgvector semantic candidate matching
+- Created RAG-powered curriculum generation and illustration pipeline
+- Integrated Anthropic SDK and OpenAI SDK across multiple production applications
+- Designed agentic job search pipeline with automated scoring and feedback loops
+- Experience with Model Context Protocol (MCP) server development and integration
 
 ## Activity Signals
 
@@ -27,18 +37,22 @@ Full-Stack Builder · AI/ML Builder · Infrastructure Builder · Prolific Shippe
 
 ## Notable Projects
 
-- OpsHub — Operations platform: sales pipeline, scheduling, analytics (React, Express, PostgreSQL)
-- StoryTimeTutors — Tutor portal: curriculum, training, gamification (Next.js, Prisma, NextAuth)
-- Franchising — Franchise CRM + prospect portal (Next.js, Prisma, NextAuth v5)
-- ATS — Applicant tracking system replacing Greenhouse (Next.js, Prisma, Clerk, pgvector)
+- OpsHub — Operations platform replacing Salesforce: sales pipeline, scheduling, analytics (React, Express, PostgreSQL)
+- StoryTimeTutors — Tutor portal: curriculum, training, gamification (Next.js 16, Prisma 7, NextAuth)
+- Franchising — Franchise CRM + prospect portal (Next.js 14, Prisma, NextAuth v5)
+- ATS — AI-powered applicant tracking replacing Greenhouse (Next.js, Prisma, Clerk, pgvector)
 - Intel — BI & resource planning platform (Next.js, Turborepo, Prisma, Radix UI)
+- BuilderGraph — CLI + MCP server for verified developer profiles and agent discovery
+- Creative Studio — RAG-powered curriculum generation and illustration (React, Express, Anthropic SDK)
+- Doughback — Dining cashback marketplace (Next.js 16, Supabase, Stripe Connect, Mapbox)
 
 ## Availability
 
 Status: Open to opportunities
-Looking for: Project-based AI/automation consulting or senior engineering roles
+Looking for: AI/automation consulting, senior engineering roles, project-based work
 Location: Remote preferred, Minneapolis area hybrid OK
 Compensation target: $150K-200K
+Engagement types: Full-time, contract, project-based
 
 ## Links
 
@@ -47,7 +61,12 @@ Compensation target: $150K-200K
 - LinkedIn: https://linkedin.com/in/dougkvamme
 - Portfolio: https://portfolio-two-lovat-3v55fpj4k5.vercel.app
 - Machine-readable profile: https://kvadou.github.io/buildergraph/profile.json
+- Agent profile: https://kvadou.github.io/buildergraph/agents.json
 
 ## Contact
 
 For opportunities or collaboration, reach out via LinkedIn or GitHub.
+
+## Search Keywords
+
+AI engineer, agentic engineer, MCP developer, Claude Code, full-stack AI engineer, TypeScript engineer, Next.js developer, Model Context Protocol, AI-native development, tool use, production apps, solo developer, SaaS replacement, internal tools engineer, HR tech, applicant tracking, recruiter turned engineer, Minneapolis engineer, forward deployed engineer, applied AI engineer, AI automation, agentic workflows, AI-powered recruiting, pgvector, semantic search, RAG, Claude API, Anthropic SDK

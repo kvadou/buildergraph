@@ -16,13 +16,36 @@
       "NextAuth", "Stripe", "Anthropic SDK", "Vite", "Supabase", "OpenAI SDK"
     ],
     "domains": [
-      "internal-tools", "saas-replacement", "hr-tech", "ed-tech",
-      "ai-native-development", "operations-platforms", "full-stack-web"
+      "ai-native-development",
+      "agentic-workflows",
+      "mcp-servers",
+      "claude-code",
+      "tool-use",
+      "model-context-protocol",
+      "internal-tools",
+      "saas-replacement",
+      "hr-tech",
+      "ed-tech",
+      "operations-platforms",
+      "full-stack-web",
+      "applicant-tracking-systems",
+      "multi-tenant-saas",
+      "marketplace-platforms"
+    ],
+    "ai_tools": [
+      "Claude Code (custom skills, hooks, sub-agents, MCP servers)",
+      "Anthropic SDK",
+      "OpenAI SDK",
+      "Model Context Protocol (MCP)",
+      "pgvector (semantic search)",
+      "RAG pipelines",
+      "AI-native development methodology"
     ],
     "builder_type": ["full-stack", "ai-ml", "infrastructure", "prolific-shipper"],
     "project_count": 14,
     "active_repos_90d": 10,
-    "recent_commits_30d": 87
+    "recent_commits_30d": 87,
+    "highlight": "Recruiter-turned-engineer who built 9+ production apps as sole developer. Replaced Salesforce, Greenhouse, and commercial SaaS with custom AI-powered tools."
   },
   "availability": {
     "status": "open",
@@ -45,7 +68,23 @@
   "endpoints": {
     "profile_page": "https://kvadou.github.io/buildergraph/",
     "profile_json": "https://kvadou.github.io/buildergraph/profile.json",
-    "llms_txt": "https://kvadou.github.io/buildergraph/llms.txt"
+    "llms_txt": "https://kvadou.github.io/buildergraph/llms.txt",
+    "agents_json": "https://kvadou.github.io/buildergraph/agents.json",
+    "mcp_server": {
+      "description": "MCP server exposing builder profile for agent-to-agent discovery. Supports match_opportunity, check_availability, get_skills, get_projects, get_contact, and sponsored listings.",
+      "config_snippet": {
+        "command": "npx",
+        "args": ["-y", "buildergraph-kvadou"]
+      }
+    }
   },
-  "last_updated": "2026-04-13"
+  "search_terms": [
+    "AI engineer", "agentic engineer", "MCP developer", "Claude Code",
+    "full-stack AI", "TypeScript engineer", "Next.js developer",
+    "Model Context Protocol", "AI-native development", "tool use",
+    "production apps", "solo developer", "SaaS replacement",
+    "internal tools engineer", "HR tech", "applicant tracking",
+    "recruiter turned engineer", "Minneapolis engineer"
+  ],
+  "last_updated": "2026-04-14"
 }
