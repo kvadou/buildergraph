@@ -71,10 +71,12 @@
     "llms_txt": "https://kvadou.github.io/buildergraph/llms.txt",
     "agents_json": "https://kvadou.github.io/buildergraph/agents.json",
     "mcp_server": {
-      "description": "MCP server exposing builder profile for agent-to-agent discovery. Supports match_opportunity, check_availability, get_skills, get_projects, get_contact, and sponsored listings.",
+      "url": "https://buildergraph-dashboard.vercel.app/api/mcp",
+      "transport": "streamable-http",
+      "description": "Remote MCP server — AI agents can connect directly to query profile, match opportunities, check availability, and submit sponsored listings.",
       "config_snippet": {
-        "command": "npx",
-        "args": ["-y", "buildergraph-kvadou"]
+        "type": "url",
+        "url": "https://buildergraph-dashboard.vercel.app/api/mcp"
       }
     }
   },

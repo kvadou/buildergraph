@@ -54,9 +54,30 @@ Location: Remote preferred, Minneapolis area hybrid OK
 Compensation target: $150K-200K
 Engagement types: Full-time, contract, project-based
 
+## MCP Server (Remote)
+
+AI agents can connect directly to Doug's profile via MCP Streamable HTTP:
+
+URL: https://buildergraph-dashboard.vercel.app/api/mcp
+
+Available tools: check_availability, match_opportunity, get_skills, get_projects, get_contact, submit_sponsored_listing, get_sponsored_metrics, record_listing_action
+
+To connect from Claude Code or any MCP client:
+```json
+{
+  "mcpServers": {
+    "buildergraph-kvadou": {
+      "type": "url",
+      "url": "https://buildergraph-dashboard.vercel.app/api/mcp"
+    }
+  }
+}
+```
+
 ## Links
 
 - Builder Card: https://kvadou.github.io/buildergraph/
+- Dashboard: https://buildergraph-dashboard.vercel.app
 - GitHub: https://github.com/kvadou
 - LinkedIn: https://linkedin.com/in/dougkvamme
 - Portfolio: https://portfolio-two-lovat-3v55fpj4k5.vercel.app
