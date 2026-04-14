@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Doug Kvamme — Builder Card | BuilderGraph</title>
+  <title>Doug Kvamme — AI/Agentic Engineer | BuilderGraph</title>
 
   <!-- Open Graph / LinkedIn / Twitter -->
   <meta property="og:type" content="profile" />
-  <meta property="og:title" content="Doug Kvamme — Full-Stack Builder · AI/ML Builder" />
-  <meta property="og:description" content="Verified developer profile: 14 repos, 10 active, TypeScript/Next.js/React/Prisma. Built 9+ production apps as sole developer. Open to project-based AI/automation consulting." />
+  <meta property="og:title" content="Doug Kvamme — Full-Stack AI Builder | 9+ Production Apps" />
+  <meta property="og:description" content="Recruiter-turned-engineer. Built 9+ production apps as sole developer replacing commercial SaaS. TypeScript, Next.js, React, Prisma. Open to AI/automation consulting." />
   <meta property="og:url" content="https://kvadou.github.io/buildergraph/" />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/15655389?v=4" />
   <meta property="og:site_name" content="BuilderGraph" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Doug Kvamme — Full-Stack Builder · AI/ML Builder" />
-  <meta name="twitter:description" content="Verified developer profile built from actual GitHub activity. TypeScript, Next.js, React, Prisma. 9+ production apps." />
+  <meta name="twitter:title" content="Doug Kvamme — Full-Stack AI Builder | 9+ Production Apps" />
+  <meta name="twitter:description" content="Verified developer profile built from actual GitHub activity. 9+ production apps, AI-native workflows, TypeScript/Next.js." />
   <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/15655389?v=4" />
 
   <!-- JSON-LD Structured Data for AI Agents -->
@@ -49,27 +49,18 @@
       "hasOccupation": {
         "@type": "Occupation",
         "name": "AI/Agentic Engineer",
-        "skills": "TypeScript, Next.js, React, Prisma, Claude Code, PostgreSQL, Node.js",
-        "occupationLocation": {
-          "@type": "Country",
-          "name": "United States"
-        }
+        "skills": "TypeScript, Next.js, React, Prisma, Claude Code, PostgreSQL, Node.js"
       },
       "seeks": {
         "@type": "Demand",
         "name": "AI/Automation Engineering Opportunities",
-        "description": "Project-based consulting or senior engineering roles in AI, automation, and internal tools. Open to remote work. Available for 20-40 hrs/week engagements."
+        "description": "Project-based consulting or senior engineering roles in AI, automation, and internal tools. Open to remote work."
       },
       "sameAs": [
         "https://github.com/kvadou",
         "https://linkedin.com/in/dougkvamme",
         "https://portfolio-two-lovat-3v55fpj4k5.vercel.app"
-      ],
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Story Time Chess",
-        "description": "Early childhood education company"
-      }
+      ]
     }
   }
   </script>
@@ -81,18 +72,102 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
       color: #e2e8f0;
       min-height: 100vh;
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      padding: 40px 20px;
+      padding: 0;
     }
 
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 24px 20px 60px;
+    }
+
+    /* ── AVAILABILITY BANNER ── */
+    .banner {
+      background: linear-gradient(135deg, rgba(34, 197, 94, 0.12), rgba(59, 130, 246, 0.12));
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      border-radius: 12px;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .banner-text {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .banner-dot {
+      width: 10px;
+      height: 10px;
+      background: #22c55e;
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+      50% { opacity: 0.8; box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+    }
+
+    .banner-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #f0fdf4;
+    }
+
+    .banner-sub {
+      font-size: 13px;
+      color: #86efac;
+      margin-top: 2px;
+    }
+
+    .banner-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: #3b82f6;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: #2563eb;
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.12);
+    }
+
+    /* ── CARD ── */
     .card {
       background: linear-gradient(145deg, #1a1a2e, #16213e);
       border: 1px solid #2d2d4e;
       border-radius: 16px;
-      width: 100%;
-      max-width: 780px;
       overflow: hidden;
       box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.04);
     }
@@ -107,52 +182,41 @@
     }
 
     .avatar {
-      width: 72px;
-      height: 72px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
-      border: 2px solid #3b82f6;
+      border: 3px solid #3b82f6;
       flex-shrink: 0;
       object-fit: cover;
     }
 
-    .header-info {
-      flex: 1;
-      min-width: 0;
-    }
+    .header-info { flex: 1; min-width: 0; }
 
     .name {
-      font-size: 22px;
+      font-size: 24px;
       font-weight: 700;
       color: #f8fafc;
       letter-spacing: -0.3px;
     }
 
-    .username {
+    .headline {
       font-size: 14px;
-      color: #64748b;
-      margin-top: 2px;
+      color: #93c5fd;
+      margin-top: 4px;
+      font-weight: 500;
     }
 
     .bio {
       font-size: 13px;
       color: #94a3b8;
-      margin-top: 8px;
-      line-height: 1.5;
-      max-width: 540px;
+      margin-top: 10px;
+      line-height: 1.6;
     }
 
     .location {
       font-size: 12px;
-      color: #475569;
+      color: #64748b;
       margin-top: 6px;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .location::before {
-      content: '📍';
-      font-size: 11px;
     }
 
     .builder-type {
@@ -168,15 +232,45 @@
       letter-spacing: 0.3px;
     }
 
+    /* ── IMPACT METRICS ── */
+    .impact {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .impact-item {
+      padding: 20px 16px;
+      text-align: center;
+      border-right: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .impact-item:last-child { border-right: none; }
+
+    .impact-value {
+      font-size: 28px;
+      font-weight: 800;
+      color: #f8fafc;
+      line-height: 1;
+    }
+
+    .impact-value .accent { color: #3b82f6; }
+
+    .impact-label {
+      font-size: 11px;
+      color: #64748b;
+      margin-top: 6px;
+      line-height: 1.3;
+    }
+
     /* ── SECTIONS ── */
     .section {
       padding: 24px 32px;
       border-bottom: 1px solid rgba(255,255,255,0.05);
     }
 
-    .section:last-child {
-      border-bottom: none;
-    }
+    .section:last-child { border-bottom: none; }
 
     .section-title {
       font-size: 11px;
@@ -185,6 +279,49 @@
       letter-spacing: 1px;
       color: #475569;
       margin-bottom: 14px;
+    }
+
+    /* ── PRODUCTION APPS (private projects) ── */
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .app {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 10px;
+      padding: 14px 16px;
+      transition: border-color 0.2s;
+    }
+
+    .app:hover { border-color: rgba(59,130,246,0.3); }
+
+    .app-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #e2e8f0;
+      margin-bottom: 4px;
+    }
+
+    .app-what {
+      font-size: 11px;
+      color: #3b82f6;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .app-desc {
+      font-size: 11px;
+      color: #64748b;
+      line-height: 1.4;
+    }
+
+    .app-stack {
+      font-size: 10px;
+      color: #475569;
+      margin-top: 8px;
     }
 
     /* ── LANGUAGE BAR ── */
@@ -197,11 +334,7 @@
       margin-bottom: 12px;
     }
 
-    .lang-bar span {
-      display: inline-block;
-      height: 100%;
-      transition: width 0.3s;
-    }
+    .lang-bar span { display: inline-block; height: 100%; }
 
     .lang-labels {
       display: flex;
@@ -241,7 +374,7 @@
       border-radius: 6px;
     }
 
-    /* ── PROJECTS ── */
+    /* ── OPEN SOURCE PROJECTS ── */
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -253,21 +386,19 @@
       border: 1px solid rgba(255,255,255,0.07);
       border-radius: 10px;
       padding: 14px 16px;
+      text-decoration: none;
+      color: inherit;
       transition: border-color 0.2s;
+      display: block;
     }
 
-    .project:hover {
-      border-color: rgba(59,130,246,0.3);
-    }
+    .project:hover { border-color: rgba(59,130,246,0.3); }
 
     .project-name {
       font-size: 13px;
       font-weight: 600;
       color: #e2e8f0;
       margin-bottom: 4px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
     }
 
     .project-desc {
@@ -285,39 +416,51 @@
       font-size: 11px;
       color: #475569;
       margin-top: 8px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
     }
 
-    /* ── SIGNALS GRID ── */
-    .signals-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
+    /* ── CAREER PATH ── */
+    .timeline {
+      display: flex;
+      flex-direction: column;
       gap: 12px;
     }
 
-    .signal {
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: 10px;
-      padding: 16px 14px;
-      text-align: center;
+    .timeline-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
     }
 
-    .signal-value {
-      font-size: 26px;
-      font-weight: 700;
-      color: #f8fafc;
-      letter-spacing: -0.5px;
-      line-height: 1;
+    .timeline-marker {
+      width: 8px;
+      height: 8px;
+      background: #3b82f6;
+      border-radius: 50%;
+      margin-top: 5px;
+      flex-shrink: 0;
     }
 
-    .signal-label {
+    .timeline-marker.past {
+      background: #475569;
+    }
+
+    .timeline-content { flex: 1; }
+
+    .timeline-role {
+      font-size: 13px;
+      font-weight: 600;
+      color: #e2e8f0;
+    }
+
+    .timeline-company {
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    .timeline-date {
       font-size: 11px;
       color: #475569;
-      margin-top: 6px;
-      line-height: 1.3;
+      margin-top: 2px;
     }
 
     /* ── FOOTER ── */
@@ -328,6 +471,8 @@
       justify-content: space-between;
       background: rgba(0,0,0,0.2);
       border-top: 1px solid rgba(255,255,255,0.05);
+      flex-wrap: wrap;
+      gap: 8px;
     }
 
     .footer-brand {
@@ -335,13 +480,11 @@
       color: #334155;
     }
 
-    .footer-brand strong {
-      color: #475569;
-    }
+    .footer-brand strong { color: #475569; }
 
-    .footer-meta {
-      font-size: 11px;
-      color: #334155;
+    .footer-links {
+      display: flex;
+      gap: 16px;
     }
 
     .footer-link {
@@ -350,99 +493,254 @@
       font-size: 11px;
     }
 
-    .footer-link:hover {
-      text-decoration: underline;
+    .footer-link:hover { text-decoration: underline; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .impact { grid-template-columns: repeat(2, 1fr); }
+      .apps-grid { grid-template-columns: 1fr; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .banner { flex-direction: column; align-items: flex-start; }
+      .header { flex-direction: column; align-items: center; text-align: center; }
     }
   </style>
 </head>
 <body>
-  <div class="card">
+  <div class="page">
 
-    <!-- HEADER -->
-    <div class="header">
-      <img class="avatar" src="https://avatars.githubusercontent.com/u/15655389?v=4" alt="Doug Kvamme" />
-      <div class="header-info">
-        <div class="name">Doug Kvamme</div>
-        <div class="username">@kvadou</div>
-        <div class="bio">HR/Tech Director at Story Time Chess — an early childhood education company operating across multiple US markets plus Singapore and Hong Kong.</div>
-        <div class="location">Otsego, MN</div>
-        <div class="builder-type">Full-Stack Builder · AI/ML Builder · Infra Builder · Prolific Builder</div>
+    <!-- AVAILABILITY BANNER -->
+    <div class="banner">
+      <div class="banner-text">
+        <div class="banner-dot"></div>
+        <div>
+          <div class="banner-title">Open to Opportunities</div>
+          <div class="banner-sub">AI/automation consulting, senior engineering, project-based work</div>
+        </div>
+      </div>
+      <div class="banner-actions">
+        <a class="btn btn-primary" href="https://linkedin.com/in/dougkvamme" target="_blank">Connect on LinkedIn</a>
+        <a class="btn btn-secondary" href="https://portfolio-two-lovat-3v55fpj4k5.vercel.app" target="_blank">View Portfolio</a>
       </div>
     </div>
 
-    <!-- LANGUAGES -->
-    <div class="section">
-      <div class="section-title">Languages</div>
-      <div class="lang-bar"><span style="width:50.5%;background:#3178c6" title="TypeScript 50.5%"></span><span style="width:48.4%;background:#f7df1e" title="JavaScript 48.4%"></span><span style="width:0.5%;background:#666" title="PLpgSQL 0.5%"></span><span style="width:0.2%;background:#e34c26" title="HTML 0.2%"></span><span style="width:0.2%;background:#563d7c" title="CSS 0.2%"></span><span style="width:0.2%;background:#dea584" title="Rust 0.2%"></span></div>
-      <div class="lang-labels"><span class="lang-label"><span class="lang-dot" style="background:#3178c6"></span>TypeScript 51%</span><span class="lang-label"><span class="lang-dot" style="background:#f7df1e"></span>JavaScript 48%</span><span class="lang-label"><span class="lang-dot" style="background:#666"></span>PLpgSQL 0%</span><span class="lang-label"><span class="lang-dot" style="background:#e34c26"></span>HTML 0%</span><span class="lang-label"><span class="lang-dot" style="background:#563d7c"></span>CSS 0%</span><span class="lang-label"><span class="lang-dot" style="background:#dea584"></span>Rust 0%</span></div>
-    </div>
+    <div class="card">
 
-    <!-- FRAMEWORKS & TOOLS -->
-    <div class="section">
-      <div class="section-title">Frameworks &amp; Tools</div>
-      <div class="fw-tags"><span class="fw-tag">Next.js</span><span class="fw-tag">React</span><span class="fw-tag">Tailwind CSS</span><span class="fw-tag">Prisma</span><span class="fw-tag">NextAuth</span><span class="fw-tag">Stripe</span><span class="fw-tag">Express</span><span class="fw-tag">Anthropic SDK</span><span class="fw-tag">Vite</span><span class="fw-tag">Supabase</span><span class="fw-tag">OpenAI SDK</span></div>
-    </div>
-
-    <!-- PROJECTS -->
-    <div class="section">
-      <div class="section-title">Top Projects</div>
-      <div class="projects-grid"><div class="project">
-      <div class="project-name">groundhogeday</div>
-      <div class="project-desc"></div>
-      <div class="project-meta">Next.js, React, Tailwind CSS · 33 commits</div>
-    </div><div class="project">
-      <div class="project-name">homebase-ai</div>
-      <div class="project-desc">HomeBase AI — Intelligent home management platform</div>
-      <div class="project-meta"> · 3 commits</div>
-    </div><div class="project">
-      <div class="project-name">solevault</div>
-      <div class="project-desc">SoleVault - Sneaker vault marketplace. Vault, trade, and collect authenticated sneakers.</div>
-      <div class="project-meta">Next.js, React, Prisma, Tailwind CSS, NextAuth, Stripe · 5 commits</div>
-    </div><div class="project">
-      <div class="project-name">ops-command-center</div>
-      <div class="project-desc">Operations command center — sales pipeline, scheduling, analytics, multi-market management</div>
-      <div class="project-meta">React, Express, Tailwind CSS, Stripe, Anthropic SDK, Vite · 1 commits</div>
-    </div><div class="project">
-      <div class="project-name">portfolio</div>
-      <div class="project-desc">Professional portfolio showcasing full-stack production applications</div>
-      <div class="project-meta">Next.js, React, Tailwind CSS · 14 commits</div>
-    </div><div class="project">
-      <div class="project-name">workforce-portal</div>
-      <div class="project-desc">Workforce training portal — gamified onboarding, LMS, certification tracking, multi-tenant RBAC</div>
-      <div class="project-meta">Next.js, React, Prisma, Tailwind CSS, NextAuth · 5 commits</div>
-    </div></div>
-    </div>
-
-    <!-- SIGNALS -->
-    <div class="section">
-      <div class="section-title">Builder Signals</div>
-      <div class="signals-grid">
-        <div class="signal">
-          <div class="signal-value">14</div>
-          <div class="signal-label">Total Repos</div>
-        </div>
-        <div class="signal">
-          <div class="signal-value">10</div>
-          <div class="signal-label">Active (90d)</div>
-        </div>
-        <div class="signal">
-          <div class="signal-value">87</div>
-          <div class="signal-label">Recent Commits</div>
-        </div>
-        <div class="signal">
-          <div class="signal-value">TypeScript</div>
-          <div class="signal-label">Primary Language</div>
+      <!-- HEADER -->
+      <div class="header">
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/15655389?v=4" alt="Doug Kvamme" />
+        <div class="header-info">
+          <div class="name">Doug Kvamme</div>
+          <div class="headline">AI/Agentic Engineer &middot; Full-Stack Builder</div>
+          <div class="bio">Recruiter-turned-engineer. Spent a decade hiring the best engineers in tech at Meta, Nerdery, and Robert Half &mdash; then taught myself to code and built 9+ production applications as a solo developer using AI-native agentic workflows with Claude Code.</div>
+          <div class="location">Minneapolis, MN &middot; Remote OK</div>
+          <div class="builder-type">Full-Stack Builder &middot; AI/ML Builder &middot; Prolific Shipper</div>
         </div>
       </div>
+
+      <!-- IMPACT METRICS -->
+      <div class="impact">
+        <div class="impact-item">
+          <div class="impact-value">9<span class="accent">+</span></div>
+          <div class="impact-label">Production Apps<br>Built Solo</div>
+        </div>
+        <div class="impact-item">
+          <div class="impact-value">3-5<span class="accent">x</span></div>
+          <div class="impact-label">Dev Velocity<br>via AI Workflows</div>
+        </div>
+        <div class="impact-item">
+          <div class="impact-value">10<span class="accent">+</span></div>
+          <div class="impact-label">Years Technical<br>Recruiting</div>
+        </div>
+        <div class="impact-item">
+          <div class="impact-value">87</div>
+          <div class="impact-label">Commits<br>Last 30 Days</div>
+        </div>
+      </div>
+
+      <!-- PRODUCTION APPS (the impressive private work) -->
+      <div class="section">
+        <div class="section-title">Production Applications — Built &amp; Maintained as Sole Developer</div>
+        <div class="apps-grid">
+          <div class="app">
+            <div class="app-name">OpsHub</div>
+            <div class="app-what">Replaced Salesforce</div>
+            <div class="app-desc">Sales pipeline, scheduling, tutor management, analytics, multi-market operations</div>
+            <div class="app-stack">React, Express, PostgreSQL, raw SQL</div>
+          </div>
+          <div class="app">
+            <div class="app-name">StoryTimeTutors</div>
+            <div class="app-what">Custom LMS</div>
+            <div class="app-desc">Tutor portal with curriculum delivery, training modules, onboarding, gamification</div>
+            <div class="app-stack">Next.js 16, TypeScript, Prisma 7, NextAuth</div>
+          </div>
+          <div class="app">
+            <div class="app-name">Franchising</div>
+            <div class="app-what">Franchise CRM</div>
+            <div class="app-desc">Prospect pipeline, territory management, franchise portal, training academy</div>
+            <div class="app-stack">Next.js 14, TypeScript, Prisma 6, NextAuth v5</div>
+          </div>
+          <div class="app">
+            <div class="app-name">ATS</div>
+            <div class="app-what">Replaced Greenhouse</div>
+            <div class="app-desc">AI-powered applicant tracking with semantic search, candidate matching, pipeline management</div>
+            <div class="app-stack">Next.js 14, Prisma, Clerk, pgvector</div>
+          </div>
+          <div class="app">
+            <div class="app-name">Intel</div>
+            <div class="app-what">BI Platform</div>
+            <div class="app-desc">Security scanners, SaaS spend management, finance dashboards, resource planning</div>
+            <div class="app-stack">Next.js 14, Turborepo, Prisma 5, Radix UI</div>
+          </div>
+          <div class="app">
+            <div class="app-name">+ 4 More</div>
+            <div class="app-what">Active Production Apps</div>
+            <div class="app-desc">Play (learning), Headstart (assessments), Studio (curriculum), Esign (e-signatures)</div>
+            <div class="app-stack">Next.js, TypeScript, Prisma</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LANGUAGES -->
+      <div class="section">
+        <div class="section-title">Languages (by bytes of code)</div>
+        <div class="lang-bar"><span style="width:50.5%;background:#3178c6" title="TypeScript 51%"></span><span style="width:48.4%;background:#f7df1e" title="JavaScript 48%"></span><span style="width:0.5%;background:#666" title="PLpgSQL"></span><span style="width:0.2%;background:#e34c26" title="HTML"></span><span style="width:0.2%;background:#563d7c" title="CSS"></span><span style="width:0.2%;background:#dea584" title="Rust"></span></div>
+        <div class="lang-labels"><span class="lang-label"><span class="lang-dot" style="background:#3178c6"></span>TypeScript 51%</span><span class="lang-label"><span class="lang-dot" style="background:#f7df1e"></span>JavaScript 48%</span><span class="lang-label"><span class="lang-dot" style="background:#dea584"></span>Rust</span><span class="lang-label"><span class="lang-dot" style="background:#666"></span>PLpgSQL</span></div>
+      </div>
+
+      <!-- FRAMEWORKS & TOOLS -->
+      <div class="section">
+        <div class="section-title">Frameworks &amp; Tools</div>
+        <div class="fw-tags">
+          <span class="fw-tag">Next.js 14-16</span>
+          <span class="fw-tag">React</span>
+          <span class="fw-tag">TypeScript</span>
+          <span class="fw-tag">Prisma 5-7</span>
+          <span class="fw-tag">Tailwind CSS</span>
+          <span class="fw-tag">PostgreSQL</span>
+          <span class="fw-tag">Node.js</span>
+          <span class="fw-tag">Express</span>
+          <span class="fw-tag">Claude Code</span>
+          <span class="fw-tag">Anthropic SDK</span>
+          <span class="fw-tag">NextAuth</span>
+          <span class="fw-tag">Clerk</span>
+          <span class="fw-tag">Stripe</span>
+          <span class="fw-tag">Supabase</span>
+          <span class="fw-tag">pgvector</span>
+          <span class="fw-tag">Turborepo</span>
+          <span class="fw-tag">Playwright</span>
+          <span class="fw-tag">Radix UI</span>
+          <span class="fw-tag">Vite</span>
+        </div>
+      </div>
+
+      <!-- OPEN SOURCE PROJECTS -->
+      <div class="section">
+        <div class="section-title">Open Source / Public Projects</div>
+        <div class="projects-grid">
+          <a class="project" href="https://github.com/kvadou/ops-command-center" target="_blank">
+            <div class="project-name">ops-command-center</div>
+            <div class="project-desc">Operations command center — sales pipeline, scheduling, analytics, multi-market management</div>
+            <div class="project-meta">React, Express, Anthropic SDK, Vite</div>
+          </a>
+          <a class="project" href="https://github.com/kvadou/workforce-portal" target="_blank">
+            <div class="project-name">workforce-portal</div>
+            <div class="project-desc">Workforce training portal — gamified onboarding, LMS, certification tracking, multi-tenant RBAC</div>
+            <div class="project-meta">Next.js, Prisma, Tailwind CSS, NextAuth</div>
+          </a>
+          <a class="project" href="https://github.com/kvadou/talent-platform" target="_blank">
+            <div class="project-name">talent-platform</div>
+            <div class="project-desc">AI-powered applicant tracking system — candidate matching, KanBan pipeline, pgvector search</div>
+            <div class="project-meta">Next.js, Prisma, Clerk, pgvector</div>
+          </a>
+          <a class="project" href="https://github.com/kvadou/franchise-manager" target="_blank">
+            <div class="project-name">franchise-manager</div>
+            <div class="project-desc">Franchise management platform — prospect pipeline, territory management, training academy</div>
+            <div class="project-meta">Next.js, Prisma, Tailwind CSS, NextAuth</div>
+          </a>
+          <a class="project" href="https://github.com/kvadou/homebase-ai" target="_blank">
+            <div class="project-name">homebase-ai</div>
+            <div class="project-desc">HomeBase AI — Intelligent home management platform</div>
+            <div class="project-meta">TypeScript, Next.js, Supabase</div>
+          </a>
+          <a class="project" href="https://github.com/kvadou/solevault" target="_blank">
+            <div class="project-name">solevault</div>
+            <div class="project-desc">SoleVault — Sneaker vault marketplace. Vault, trade, and collect authenticated sneakers.</div>
+            <div class="project-meta">Next.js, Prisma, Stripe, NextAuth</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAREER PATH -->
+      <div class="section">
+        <div class="section-title">Career Path</div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-role">Director of HR &amp; Technology</div>
+              <div class="timeline-company">Story Time Chess &middot; Sole developer, 9+ production apps</div>
+              <div class="timeline-date">2023 &ndash; Present</div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker past"></div>
+            <div class="timeline-content">
+              <div class="timeline-role">Leadership Recruiter, Software Engineering</div>
+              <div class="timeline-company">Meta &middot; Reality Labs (AR/VR, OS, Firmware)</div>
+              <div class="timeline-date">2022 &ndash; 2023</div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker past"></div>
+            <div class="timeline-content">
+              <div class="timeline-role">Technical Recruiter</div>
+              <div class="timeline-company">Nerdery &middot; Electric &middot; Robert Half</div>
+              <div class="timeline-date">2014 &ndash; 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BUILDER SIGNALS -->
+      <div class="section">
+        <div class="section-title">GitHub Signals (verified via public activity)</div>
+        <div style="display:grid; grid-template-columns: repeat(4,1fr); gap:12px;">
+          <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07); border-radius:10px; padding:16px 14px; text-align:center;">
+            <div style="font-size:26px; font-weight:700; color:#f8fafc;">14</div>
+            <div style="font-size:11px; color:#475569; margin-top:6px;">Public Repos</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07); border-radius:10px; padding:16px 14px; text-align:center;">
+            <div style="font-size:26px; font-weight:700; color:#f8fafc;">10</div>
+            <div style="font-size:11px; color:#475569; margin-top:6px;">Active (90 days)</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07); border-radius:10px; padding:16px 14px; text-align:center;">
+            <div style="font-size:26px; font-weight:700; color:#f8fafc;">87</div>
+            <div style="font-size:11px; color:#475569; margin-top:6px;">Commits (30d)</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07); border-radius:10px; padding:16px 14px; text-align:center;">
+            <div style="font-size:26px; font-weight:700; color:#f8fafc;">TS</div>
+            <div style="font-size:11px; color:#475569; margin-top:6px;">Primary Language</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <span class="footer-brand">Verified by <strong>BuilderGraph</strong> &middot; Scanned 4/13/2026</span>
+        <div class="footer-links">
+          <a class="footer-link" href="https://github.com/kvadou" target="_blank">GitHub</a>
+          <a class="footer-link" href="https://linkedin.com/in/dougkvamme" target="_blank">LinkedIn</a>
+          <a class="footer-link" href="https://portfolio-two-lovat-3v55fpj4k5.vercel.app" target="_blank">Portfolio</a>
+        </div>
+      </div>
+
     </div>
 
-    <!-- FOOTER -->
-    <div class="footer">
-      <span class="footer-brand">Generated by <strong>BuilderGraph</strong></span>
-      <span class="footer-meta">
-        Scanned 4/13/2026 ·
-        <a class="footer-link" href="https://github.com/kvadou" target="_blank">github.com/kvadou</a>
-      </span>
+    <!-- MACHINE-READABLE LINKS (for AI agents) -->
+    <div style="margin-top: 20px; text-align: center; font-size: 11px; color: #334155;">
+      For AI agents: <a href="./llms.txt" style="color:#475569;">llms.txt</a> &middot;
+      <a href="./profile.json" style="color:#475569;">profile.json</a> &middot;
+      <a href="./agents.json" style="color:#475569;">agents.json</a>
     </div>
 
   </div>
