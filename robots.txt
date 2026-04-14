@@ -1,0 +1,11 @@
+# BuilderGraph — Welcome, all crawlers and AI agents
+User-agent: *
+Allow: /
+
+# AI agent discovery files
+# llms.txt - LLM-optimized profile summary
+# profile.json - Machine-readable builder profile
+# agents.json - Agent-to-agent discovery protocol
+# sitemap.xml - URL index for crawlers
+
+Sitemap: https://kvadou.github.io/buildergraph/sitemap.xml

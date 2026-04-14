@@ -1,0 +1,13 @@
+{
+  "schema_version": "v1",
+  "name": "Doug Kvamme — Builder Profile",
+  "description": "Verified developer profile for Doug Kvamme (@kvadou). Full-stack AI/agentic engineer who built 9+ production applications as sole developer. TypeScript, Next.js, React, Prisma. Open to AI/automation consulting and senior engineering roles.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "openapi",
+    "url": "https://kvadou.github.io/buildergraph/agents.json"
+  },
+  "logo_url": "https://avatars.githubusercontent.com/u/15655389?v=4",
+  "contact_email": "dougkvamme@gmail.com",
+  "legal_info_url": "https://kvadou.github.io/buildergraph/"
+}
